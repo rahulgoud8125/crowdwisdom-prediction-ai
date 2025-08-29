@@ -1,4 +1,5 @@
 .env
 __pycache__/
 *.pyc
-outputs/
+outputs/*
+!outputs/unified_products.sample.csv
