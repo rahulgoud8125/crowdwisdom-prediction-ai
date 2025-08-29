@@ -1,0 +1,16 @@
+ID,Name,Site,Product,Price,Confidence,Sites
+837c2f39,Trump Win 2024,Polymarket,Trump wins 2024 Presidential Election,0.470,0.589,3
+837c2f39,Trump Win 2024,Kalshi,Trump 2024 Victory,0.520,0.589,3
+837c2f39,Trump Win 2024,Prediction-market,Trump Win 2024,0.490,0.589,3
+0bdb6632,Ethereum above $5k,Polymarket,"Bitcoin reaches $100,000 in 2024",0.230,0.466,3
+0bdb6632,Ethereum above $5k,Polymarket,Ethereum reaches $5k in 2024,0.340,0.466,3
+0bdb6632,Ethereum above $5k,Kalshi,Ethereum above $5k,0.380,0.466,3
+0bdb6632,Ethereum above $5k,Prediction-market,Ethereum $5k Target,0.410,0.466,3
+783099f7,Fed at 3%,Polymarket,Fed cuts below 3%,0.670,0.611,3
+783099f7,Fed at 3%,Kalshi,Fed below 3% in 2024,0.710,0.611,3
+783099f7,Fed at 3%,Prediction-market,Fed at 3%,0.730,0.611,3
+e899403e,AI AGI 2025,Polymarket,AI achieves AGI by 2025,0.150,0.917,3
+e899403e,AI AGI 2025,Kalshi,AI AGI by 2025,0.120,0.917,3
+e899403e,AI AGI 2025,Prediction-market,AI AGI 2025,0.180,0.917,3
+66aec1ea,Ukraine war ends 2024,Kalshi,Ukraine war ends 2024,0.310,1.000,1
+e1e5e302,Bitcoin $100k Target,Prediction-market,Bitcoin $100k Target,0.280,1.000,1
