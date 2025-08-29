@@ -1,0 +1,240 @@
+2025-08-28 19:19:43,536 | INFO | main | Starting main execution
+2025-08-28 19:19:43,537 | INFO | scrape_all_sites | Starting data collection from all prediction market sites
+2025-08-28 19:19:43,538 | INFO | scrape_all_sites | Successfully collected 5 items from Polymarket
+2025-08-28 19:19:43,538 | INFO | scrape_all_sites | Successfully collected 5 items from Kalshi
+2025-08-28 19:19:43,538 | INFO | scrape_all_sites | Successfully collected 5 items from Prediction-Market
+2025-08-28 19:19:43,539 | INFO | scrape_all_sites | Total items collected: 15
+2025-08-28 19:19:43,539 | INFO | unify_products | Starting product unification process
+2025-08-28 19:19:43,540 | DEBUG | unify_products | Created new group for 'Trump wins 2024 Presidential Election'
+2025-08-28 19:19:43,540 | DEBUG | simple_similarity | Similarity between 'Bitcoin reaches $100,000 in 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:19:43,541 | DEBUG | unify_products | Created new group for 'Bitcoin reaches $100,000 in 2024'
+2025-08-28 19:19:43,541 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts rates below 3%' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:19:43,541 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts rates below 3%' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:19:43,541 | DEBUG | unify_products | Created new group for 'Federal Reserve cuts rates below 3%'
+2025-08-28 19:19:43,541 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:19:43,541 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:19:43,541 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:19:43,541 | DEBUG | unify_products | Created new group for 'AI achieves AGI by 2025'
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'Ethereum reaches $5000 in 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'Ethereum reaches $5000 in 2024' and 'Bitcoin reaches $100,000 in 2024': 0.429
+2025-08-28 19:19:43,542 | DEBUG | unify_products | Added 'Ethereum reaches $5000 in 2024' to existing group
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'Trump 2024 Election Victory' and 'Trump wins 2024 Presidential Election': 0.500
+2025-08-28 19:19:43,542 | DEBUG | unify_products | Added 'Trump 2024 Election Victory' to existing group
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Trump 2024 Election Victory': 0.000
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Ethereum reaches $5000 in 2024': 0.000
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'AI achieves AGI by 2025': 1.000
+2025-08-28 19:19:43,542 | DEBUG | unify_products | Added 'AI achieves AGI by 2025' to existing group
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Trump wins 2024 Presidential Election': 0.100
+2025-08-28 19:19:43,542 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Trump 2024 Election Victory': 0.111
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Bitcoin reaches $100,000 in 2024': 0.222
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Ethereum reaches $5000 in 2024': 0.222
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Federal Reserve cuts rates below 3%': 0.200
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:19:43,543 | DEBUG | unify_products | Created new group for 'Fed rate below 3% in 2024'
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Trump 2024 Election Victory': 0.125
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Bitcoin reaches $100,000 in 2024': 0.250
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Ethereum reaches $5000 in 2024': 0.250
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:19:43,543 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Fed rate below 3% in 2024': 0.222
+2025-08-28 19:19:43,544 | DEBUG | unify_products | Created new group for 'Ukraine war ends in 2024'
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Trump 2024 Election Victory': 0.125
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Bitcoin reaches $100,000 in 2024': 0.111
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Ethereum reaches $5000 in 2024': 0.429
+2025-08-28 19:19:43,544 | DEBUG | unify_products | Added 'Ethereum above $5000 by 2024' to existing group
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Donald Trump Presidential Win 2024' and 'Trump wins 2024 Presidential Election': 0.429
+2025-08-28 19:19:43,544 | DEBUG | unify_products | Added 'Donald Trump Presidential Win 2024' to existing group
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Trump wins 2024 Presidential Election': 0.125
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Trump 2024 Election Victory': 0.143
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Donald Trump Presidential Win 2024': 0.125
+2025-08-28 19:19:43,544 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Bitcoin reaches $100,000 in 2024': 0.286
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Ethereum reaches $5000 in 2024': 0.125
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Ethereum above $5000 by 2024': 0.125
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Fed rate below 3% in 2024': 0.111
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Ukraine war ends in 2024': 0.125
+2025-08-28 19:19:43,545 | DEBUG | unify_products | Created new group for 'Bitcoin $100k Target 2024'
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Trump 2024 Election Victory': 0.000
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Donald Trump Presidential Win 2024': 0.000
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Ethereum reaches $5000 in 2024': 0.000
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Ethereum above $5000 by 2024': 0.125
+2025-08-28 19:19:43,545 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'AI achieves AGI by 2025': 0.500
+2025-08-28 19:19:43,546 | DEBUG | unify_products | Added 'AGI achieved by 2025' to existing group
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Trump 2024 Election Victory': 0.000
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Donald Trump Presidential Win 2024': 0.000
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Ethereum reaches $5000 in 2024': 0.000
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Ethereum above $5000 by 2024': 0.000
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Federal Reserve cuts rates below 3%': 0.571
+2025-08-28 19:19:43,546 | DEBUG | unify_products | Added 'Federal Reserve cuts to 3%' to existing group
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Trump 2024 Election Victory': 0.125
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Donald Trump Presidential Win 2024': 0.111
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Bitcoin reaches $100,000 in 2024': 0.111
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Ethereum reaches $5000 in 2024': 0.429
+2025-08-28 19:19:43,546 | DEBUG | unify_products | Added 'Ethereum $5000 Price Target 2024' to existing group
+2025-08-28 19:19:43,546 | DEBUG | simple_similarity | Similarity between 'Trump wins 2024 Presidential Election' and 'Trump 2024 Election Victory': 0.500
+2025-08-28 19:19:43,547 | DEBUG | simple_similarity | Similarity between 'Trump wins 2024 Presidential Election' and 'Donald Trump Presidential Win 2024': 0.429
+2025-08-28 19:19:43,547 | DEBUG | simple_similarity | Similarity between 'Trump 2024 Election Victory' and 'Donald Trump Presidential Win 2024': 0.286
+2025-08-28 19:19:43,547 | DEBUG | unify_products | Created unified item: Trump 2024 Election Victory with confidence 0.605
+2025-08-28 19:19:43,547 | DEBUG | simple_similarity | Similarity between 'Bitcoin reaches $100,000 in 2024' and 'Ethereum reaches $5000 in 2024': 0.429
+2025-08-28 19:19:43,547 | DEBUG | simple_similarity | Similarity between 'Bitcoin reaches $100,000 in 2024' and 'Ethereum above $5000 by 2024': 0.111
+2025-08-28 19:19:43,547 | DEBUG | simple_similarity | Similarity between 'Bitcoin reaches $100,000 in 2024' and 'Ethereum $5000 Price Target 2024': 0.111
+2025-08-28 19:19:43,547 | DEBUG | simple_similarity | Similarity between 'Ethereum reaches $5000 in 2024' and 'Ethereum above $5000 by 2024': 0.429
+2025-08-28 19:19:43,547 | DEBUG | simple_similarity | Similarity between 'Ethereum reaches $5000 in 2024' and 'Ethereum $5000 Price Target 2024': 0.429
+2025-08-28 19:19:43,547 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Ethereum $5000 Price Target 2024': 0.429
+2025-08-28 19:19:43,547 | DEBUG | unify_products | Created unified item: Ethereum above $5000 by 2024 with confidence 0.523
+2025-08-28 19:19:43,547 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts rates below 3%' and 'Federal Reserve cuts to 3%': 0.571
+2025-08-28 19:19:43,548 | DEBUG | unify_products | Created unified item: Federal Reserve cuts to 3% with confidence 0.771
+2025-08-28 19:19:43,548 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'AI achieves AGI by 2025': 1.000
+2025-08-28 19:19:43,548 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'AGI achieved by 2025': 0.500
+2025-08-28 19:19:43,548 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'AGI achieved by 2025': 0.500
+2025-08-28 19:19:43,548 | DEBUG | unify_products | Created unified item: AGI achieved by 2025 with confidence 0.867
+2025-08-28 19:19:43,548 | DEBUG | unify_products | Created unified item: Fed rate below 3% in 2024 with confidence 1.000
+2025-08-28 19:19:43,548 | DEBUG | unify_products | Created unified item: Ukraine war ends in 2024 with confidence 1.000
+2025-08-28 19:19:43,548 | DEBUG | unify_products | Created unified item: Bitcoin $100k Target 2024 with confidence 1.000
+2025-08-28 19:19:43,548 | INFO | unify_products | Unified 15 items into 7 groups
+2025-08-28 19:19:43,550 | INFO | create_excel_output | Starting Excel file generation
+2025-08-28 19:19:44,264 | INFO | create_excel_output | Excel file successfully created: outputs/unified_products.xlsx
+2025-08-28 19:19:44,272 | INFO | create_csv_backup | CSV backup created: outputs/unified_products.csv
+2025-08-28 19:19:44,275 | INFO | create_news_review | Creating news review JSON
+2025-08-28 19:19:44,278 | INFO | create_news_review | News review created: outputs/news_review.json
+2025-08-28 19:19:44,280 | INFO | display_results | Displaying results in console
+2025-08-28 19:19:44,316 | INFO | display_results | Results displayed successfully
+2025-08-28 19:19:44,364 | WARNING | main | Could not auto-open Excel file
+2025-08-28 19:19:44,364 | INFO | interactive_chat | Starting RAG chat interface
+2025-08-28 19:20:44,064 | INFO | interactive_chat | Processing RAG question: what's the average confidence score across all matches
+2025-08-28 19:20:47,338 | ERROR | interactive_chat | RAG chat error: litellm.AuthenticationError: AuthenticationError: OpenAIException - Incorrect API key provided: sk-proj-********************XXXX. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-08-28 19:27:52,294 | INFO | main | Starting main execution
+2025-08-28 19:27:52,294 | INFO | scrape_all_sites | Starting data collection from all prediction market sites
+2025-08-28 19:27:52,294 | INFO | scrape_all_sites | Successfully collected 5 items from Polymarket
+2025-08-28 19:27:52,294 | INFO | scrape_all_sites | Successfully collected 5 items from Kalshi
+2025-08-28 19:27:52,295 | INFO | scrape_all_sites | Successfully collected 5 items from Prediction-Market
+2025-08-28 19:27:52,295 | INFO | scrape_all_sites | Total items collected: 15
+2025-08-28 19:27:52,296 | INFO | unify_products | Starting product unification process
+2025-08-28 19:27:52,296 | DEBUG | unify_products | Created new group for 'Trump wins 2024 Presidential Election'
+2025-08-28 19:27:52,296 | DEBUG | simple_similarity | Similarity between 'Bitcoin reaches $100,000 in 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:27:52,296 | DEBUG | unify_products | Created new group for 'Bitcoin reaches $100,000 in 2024'
+2025-08-28 19:27:52,296 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts rates below 3%' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:27:52,296 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts rates below 3%' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:27:52,296 | DEBUG | unify_products | Created new group for 'Federal Reserve cuts rates below 3%'
+2025-08-28 19:27:52,296 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:27:52,296 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:27:52,296 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:27:52,296 | DEBUG | unify_products | Created new group for 'AI achieves AGI by 2025'
+2025-08-28 19:27:52,296 | DEBUG | simple_similarity | Similarity between 'Ethereum reaches $5000 in 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Ethereum reaches $5000 in 2024' and 'Bitcoin reaches $100,000 in 2024': 0.429
+2025-08-28 19:27:52,297 | DEBUG | unify_products | Added 'Ethereum reaches $5000 in 2024' to existing group
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Trump 2024 Election Victory' and 'Trump wins 2024 Presidential Election': 0.500
+2025-08-28 19:27:52,297 | DEBUG | unify_products | Added 'Trump 2024 Election Victory' to existing group
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Trump 2024 Election Victory': 0.000
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Ethereum reaches $5000 in 2024': 0.000
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'AI achieves AGI by 2025': 1.000
+2025-08-28 19:27:52,297 | DEBUG | unify_products | Added 'AI achieves AGI by 2025' to existing group
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Trump wins 2024 Presidential Election': 0.100
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Trump 2024 Election Victory': 0.111
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Bitcoin reaches $100,000 in 2024': 0.222
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Ethereum reaches $5000 in 2024': 0.222
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'Federal Reserve cuts rates below 3%': 0.200
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Fed rate below 3% in 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:27:52,297 | DEBUG | unify_products | Created new group for 'Fed rate below 3% in 2024'
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Trump 2024 Election Victory': 0.125
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Bitcoin reaches $100,000 in 2024': 0.250
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Ethereum reaches $5000 in 2024': 0.250
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:27:52,297 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Ukraine war ends in 2024' and 'Fed rate below 3% in 2024': 0.222
+2025-08-28 19:27:52,298 | DEBUG | unify_products | Created new group for 'Ukraine war ends in 2024'
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Trump 2024 Election Victory': 0.125
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Bitcoin reaches $100,000 in 2024': 0.111
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Ethereum reaches $5000 in 2024': 0.429
+2025-08-28 19:27:52,298 | DEBUG | unify_products | Added 'Ethereum above $5000 by 2024' to existing group
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Donald Trump Presidential Win 2024' and 'Trump wins 2024 Presidential Election': 0.429
+2025-08-28 19:27:52,298 | DEBUG | unify_products | Added 'Donald Trump Presidential Win 2024' to existing group
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Trump wins 2024 Presidential Election': 0.125
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Trump 2024 Election Victory': 0.143
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Donald Trump Presidential Win 2024': 0.125
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Bitcoin reaches $100,000 in 2024': 0.286
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Ethereum reaches $5000 in 2024': 0.125
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Ethereum above $5000 by 2024': 0.125
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'AI achieves AGI by 2025': 0.000
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Fed rate below 3% in 2024': 0.111
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'Bitcoin $100k Target 2024' and 'Ukraine war ends in 2024': 0.125
+2025-08-28 19:27:52,298 | DEBUG | unify_products | Created new group for 'Bitcoin $100k Target 2024'
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Trump 2024 Election Victory': 0.000
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Donald Trump Presidential Win 2024': 0.000
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Ethereum reaches $5000 in 2024': 0.000
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Ethereum above $5000 by 2024': 0.125
+2025-08-28 19:27:52,298 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'Federal Reserve cuts rates below 3%': 0.000
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'AGI achieved by 2025' and 'AI achieves AGI by 2025': 0.500
+2025-08-28 19:27:52,299 | DEBUG | unify_products | Added 'AGI achieved by 2025' to existing group
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Trump wins 2024 Presidential Election': 0.000
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Trump 2024 Election Victory': 0.000
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Donald Trump Presidential Win 2024': 0.000
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Bitcoin reaches $100,000 in 2024': 0.000
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Ethereum reaches $5000 in 2024': 0.000
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Ethereum above $5000 by 2024': 0.000
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts to 3%' and 'Federal Reserve cuts rates below 3%': 0.571
+2025-08-28 19:27:52,299 | DEBUG | unify_products | Added 'Federal Reserve cuts to 3%' to existing group
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Trump wins 2024 Presidential Election': 0.111
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Trump 2024 Election Victory': 0.125
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Donald Trump Presidential Win 2024': 0.111
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Bitcoin reaches $100,000 in 2024': 0.111
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Ethereum $5000 Price Target 2024' and 'Ethereum reaches $5000 in 2024': 0.429
+2025-08-28 19:27:52,299 | DEBUG | unify_products | Added 'Ethereum $5000 Price Target 2024' to existing group
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Trump wins 2024 Presidential Election' and 'Trump 2024 Election Victory': 0.500
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Trump wins 2024 Presidential Election' and 'Donald Trump Presidential Win 2024': 0.429
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Trump 2024 Election Victory' and 'Donald Trump Presidential Win 2024': 0.286
+2025-08-28 19:27:52,299 | DEBUG | unify_products | Created unified item: Trump 2024 Election Victory with confidence 0.605
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Bitcoin reaches $100,000 in 2024' and 'Ethereum reaches $5000 in 2024': 0.429
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Bitcoin reaches $100,000 in 2024' and 'Ethereum above $5000 by 2024': 0.111
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Bitcoin reaches $100,000 in 2024' and 'Ethereum $5000 Price Target 2024': 0.111
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Ethereum reaches $5000 in 2024' and 'Ethereum above $5000 by 2024': 0.429
+2025-08-28 19:27:52,299 | DEBUG | simple_similarity | Similarity between 'Ethereum reaches $5000 in 2024' and 'Ethereum $5000 Price Target 2024': 0.429
+2025-08-28 19:27:52,300 | DEBUG | simple_similarity | Similarity between 'Ethereum above $5000 by 2024' and 'Ethereum $5000 Price Target 2024': 0.429
+2025-08-28 19:27:52,300 | DEBUG | unify_products | Created unified item: Ethereum above $5000 by 2024 with confidence 0.523
+2025-08-28 19:27:52,300 | DEBUG | simple_similarity | Similarity between 'Federal Reserve cuts rates below 3%' and 'Federal Reserve cuts to 3%': 0.571
+2025-08-28 19:27:52,300 | DEBUG | unify_products | Created unified item: Federal Reserve cuts to 3% with confidence 0.771
+2025-08-28 19:27:52,300 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'AI achieves AGI by 2025': 1.000
+2025-08-28 19:27:52,300 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'AGI achieved by 2025': 0.500
+2025-08-28 19:27:52,300 | DEBUG | simple_similarity | Similarity between 'AI achieves AGI by 2025' and 'AGI achieved by 2025': 0.500
+2025-08-28 19:27:52,300 | DEBUG | unify_products | Created unified item: AGI achieved by 2025 with confidence 0.867
+2025-08-28 19:27:52,300 | DEBUG | unify_products | Created unified item: Fed rate below 3% in 2024 with confidence 1.000
+2025-08-28 19:27:52,300 | DEBUG | unify_products | Created unified item: Ukraine war ends in 2024 with confidence 1.000
+2025-08-28 19:27:52,300 | DEBUG | unify_products | Created unified item: Bitcoin $100k Target 2024 with confidence 1.000
+2025-08-28 19:27:52,300 | INFO | unify_products | Unified 15 items into 7 groups
+2025-08-28 19:27:52,306 | INFO | create_excel_output | Starting Excel file generation
+2025-08-28 19:27:52,834 | INFO | create_excel_output | Excel file successfully created: outputs/unified_products.xlsx
+2025-08-28 19:27:52,841 | INFO | create_csv_backup | CSV backup created: outputs/unified_products.csv
+2025-08-28 19:27:52,844 | INFO | create_news_review | Creating news review JSON
+2025-08-28 19:27:52,847 | INFO | create_news_review | News review created: outputs/news_review.json
+2025-08-28 19:27:52,851 | INFO | display_results | Displaying results in console
+2025-08-28 19:27:52,885 | INFO | display_results | Results displayed successfully
+2025-08-28 19:27:52,934 | WARNING | main | Could not auto-open Excel file
+2025-08-28 19:27:52,935 | INFO | interactive_chat | Starting RAG chat interface
+2025-08-28 19:28:55,028 | INFO | interactive_chat | Processing RAG question: average of confidence
+2025-08-28 19:28:58,669 | ERROR | interactive_chat | RAG chat error: litellm.AuthenticationError: AuthenticationError: OpenAIException - Incorrect API key provided: sk-proj-********************XXXX. You can find your API key at https://platform.openai.com/account/api-keys.

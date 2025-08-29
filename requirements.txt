@@ -1,0 +1,8 @@
+crewai>=0.165.1
+crewai[tools]>=0.165.1
+litellm>=1.43.0
+browser-use>=0.1.28
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+pydantic>=2.8.2
+guardrails-ai>=0.6.0

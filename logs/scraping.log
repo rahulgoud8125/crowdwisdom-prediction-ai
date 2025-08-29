@@ -1,0 +1,4 @@
+2025-08-28 13:50:32.812 | ERROR    | __main__:main:418 - Flow execution failed: asyncio.run() cannot be called from a running event loop
+2025-08-28 13:52:57.868 | ERROR    | __main__:main:418 - Flow execution failed: asyncio.run() cannot be called from a running event loop
+2025-08-28 13:55:43.086 | INFO     | __main__:initiate_collection:213 - Starting prediction market data collection flow
+2025-08-28 13:55:43.093 | ERROR    | __main__:main:418 - Flow execution failed: property 'state' of 'PredictionMarketFlow' object has no setter
